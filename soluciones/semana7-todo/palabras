@@ -1,0 +1,24 @@
+from sys import stdin
+def main():
+    d=""
+    lista=[]
+    let="QWERTYUIOPASDFGHJKLÑZXCVBNM"
+    n=int(stdin.readline().strip())
+    while n!=0:
+        a=str(stdin.readline().strip())
+        a=a.upper()
+        a=a.replace(" ","")
+        a=a.replace(".","")
+        d=d+str(a)
+        n-=1
+    print(d)
+    for i in d:
+        if i in let:
+            lista.append(i)
+        else:
+            d=d.replace(i,"")
+    lista.sort()
+    print(lista)
+    t=lista.count("A")
+    print(t)
+main()

@@ -1,0 +1,15 @@
+from sys import stdin
+n= int(stdin.readline().strip())        
+m= float(stdin.readline().strip()) 
+if n==1:
+  print (m*500,'gr')
+elif n==-1:
+  print (m/500,'lb')
+elif n==2:
+  print (m*100,'cm')
+elif n==-2:
+  print (m/100,'mt')
+elif n==3:
+  print (m*0.62,'mi')
+elif n==-3:
+  print (m/0.62,'km')

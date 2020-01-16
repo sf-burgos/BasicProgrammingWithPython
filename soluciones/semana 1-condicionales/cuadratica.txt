@@ -1,0 +1,12 @@
+from sys import stdin
+import math
+""" Programa que permite encontrar los ceros de una Funcion Cuadratica """
+a=float(stdin.readline().strip())        
+b=float(stdin.readline().strip())
+c=float(stdin.readline().strip())
+def discriminante (a,b,c):
+    disc= (math.pow(b,2))-(4*a*c)
+    if discriminante>0:
+  x1=(-b+math.sqrt(discriminante))/(2*a)
+  x2=(-b-math.sqrt(discriminante))/(2*a)
+  

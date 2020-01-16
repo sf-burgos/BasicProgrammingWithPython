@@ -1,0 +1,9 @@
+1-hallar maximo y minimo.x
+2-cambiar de color asintotas (opcional, linea punteada).
+3-periodica.x
+4-cambio de color cada vez que toca x 'y' y.x
+5-comparar datos de dos funciones.
+6-imprimir cuando corta en x 'y' y. 
+7-poner imagen de la funcion original.
+
+

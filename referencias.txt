@@ -1,0 +1,10 @@
+https://www.definicionabc.com/tecnologia/programacion.php
+https://es.wikipedia.org/wiki/Programaci%C3%B3n
+http://www.it.uc3m.es/jvillena/irc/practicas/estudios/Lenguajes_de_Programacion.pdf
+https://es.wikipedia.org/wiki/Charles_Babbage
+
+
+Charles Babbage: Diseñó y parcialmente implementó una máquina para calcular, de diferencias mecánicas para calcular tablas de números.
+
+
+ la denominada máquina analítica. Entre sus notas sobre la máquina se encuentra lo que se reconoce hoy como el primer algoritmo destinado a ser procesado por una máquina, por lo que se la considera como la primera programadora de ordenadores.

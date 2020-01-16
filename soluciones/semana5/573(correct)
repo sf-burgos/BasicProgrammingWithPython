@@ -1,0 +1,70 @@
+# the snail(pozo)
+from sys import stdin
+
+def snail(h,u,d,f):
+
+# h = altura del pozo
+# u = distancia hacia arriba
+# d =  distancia hacia abajo
+# f = Factor
+
+# x = altura inicial  ,
+#y = distancia Escalada,
+#z = Altura despues de escalar,
+# z2 = Altura despues de escalar del dia anterior.
+
+
+    exitoso = True
+    dia = 0
+    x = 0
+    y = u
+    
+    porcentaje =  round(float(u*(f/100)),2)
+    while x<h :
+
+        dia = dia+1
+
+        x = x + y
+
+        if x > h :
+            break
+
+        x = x - d
+
+        if x < 0 :
+            exitoso = False
+            break
+        
+        y = y - porcentaje
+
+        if y < 0 :
+            y = 0
+        
+
+    if exitoso == True:
+
+        print ("success on day", dia)
+    else:
+
+        print ("failure on day", dia)
+    
+
+        
+
+        
+def main():
+
+  
+    a=[int(x) for x in stdin.readline().strip().split(" ")]
+    while a!=[0,0,0,0]:
+        h = a[0]  # altura
+        u = a[1]  # distancia arriba
+        d = a[2]  # distancia hacia abajo
+        f = a[3]  # Porcentaje
+        #porcentaje = round(float(u * (f/100)),2)
+        snail(h,u,d,f)
+        a=[int(x) for x in stdin.readline().strip().split(" ")]
+        
+
+main()
+
